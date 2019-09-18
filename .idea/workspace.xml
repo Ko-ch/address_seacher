@@ -150,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568810650613</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="もろに値を通すために、返り値を入れた状態を仮実装しました。">
+      <created>1568811339498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568811339498</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,7 +178,8 @@
     <MESSAGE value="県名をサーバーから取得することができました。&#10;郵便番号もつけたよ" />
     <MESSAGE value="テストの雛形を作ったよ" />
     <MESSAGE value="郵便番号から岩手県八幡平市大更を取得できるテストを書いた" />
-    <option name="LAST_COMMIT_MESSAGE" value="郵便番号から岩手県八幡平市大更を取得できるテストを書いた" />
+    <MESSAGE value="もろに値を通すために、返り値を入れた状態を仮実装しました。" />
+    <option name="LAST_COMMIT_MESSAGE" value="もろに値を通すために、返り値を入れた状態を仮実装しました。" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
