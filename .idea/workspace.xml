@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cb9972c-8831-4eb1-94cf-bb9caf5df67c" name="Default Changelist" comment="">
+    <list default="true" id="7cb9972c-8831-4eb1-94cf-bb9caf5df67c" name="Default Changelist" comment="郵便番号から住所を取得する、AddressSearcherクラスのsearchメソッドを実装した。">
+      <change afterPath="$PROJECT_DIR$/address_seacher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_address_seacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_address_seacher.py" afterDir="false" />
     </list>
@@ -195,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568811847923</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="郵便番号から住所を取得する、AddressSearcherクラスのsearchメソッドを実装した。">
+      <created>1568814308123</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568814308123</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +226,8 @@
     <MESSAGE value="郵便番号から岩手県八幡平市大更を取得できるテストを書いた" />
     <MESSAGE value="もろに値を通すために、返り値を入れた状態を仮実装しました。" />
     <MESSAGE value="２つ目のケースを仮実装し、片方のテストケースを落ちたことを確認した。" />
-    <option name="LAST_COMMIT_MESSAGE" value="２つ目のケースを仮実装し、片方のテストケースを落ちたことを確認した。" />
+    <MESSAGE value="郵便番号から住所を取得する、AddressSearcherクラスのsearchメソッドを実装した。" />
+    <option name="LAST_COMMIT_MESSAGE" value="郵便番号から住所を取得する、AddressSearcherクラスのsearchメソッドを実装した。" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
