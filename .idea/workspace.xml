@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cb9972c-8831-4eb1-94cf-bb9caf5df67c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_address_seacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_address_seacher.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,6 +62,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for test_address_seacher.TestAddressSearcher" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="address_search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_address_seacher.TestAddressSearcher&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for test_address_seacher.TestAddressSearcher.test_郵便番号を入力し岩手県八幡平市大更の地名を取得する" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="address_search" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -72,6 +87,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_address_seacher.TestAddressSearcher.test_郵便番号を入力し岩手県八幡平市大更の地名を取得する&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_address_seacher.TestAddressSearcher.test_郵便番号を入力し東京都練馬区豊玉南を取得する" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="address_search" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_address_seacher.TestAddressSearcher.test_郵便番号を入力し東京都練馬区豊玉南を取得する&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -92,6 +121,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in test_address_seacher.py" />
+        <item itemvalue="Python tests.Unittests for test_address_seacher.TestAddressSearcher" />
+        <item itemvalue="Python tests.Unittests for test_address_seacher.TestAddressSearcher.test_郵便番号を入力し東京都練馬区豊玉南を取得する" />
         <item itemvalue="Python tests.Unittests for test_address_seacher.TestAddressSearcher.test_郵便番号を入力し岩手県八幡平市大更の地名を取得する" />
         <item itemvalue="Python.request_sample01" />
       </list>
@@ -157,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568811339498</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="２つ目のケースを仮実装し、片方のテストケースを落ちたことを確認した。">
+      <created>1568811847923</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568811847923</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,7 +217,8 @@
     <MESSAGE value="テストの雛形を作ったよ" />
     <MESSAGE value="郵便番号から岩手県八幡平市大更を取得できるテストを書いた" />
     <MESSAGE value="もろに値を通すために、返り値を入れた状態を仮実装しました。" />
-    <option name="LAST_COMMIT_MESSAGE" value="もろに値を通すために、返り値を入れた状態を仮実装しました。" />
+    <MESSAGE value="２つ目のケースを仮実装し、片方のテストケースを落ちたことを確認した。" />
+    <option name="LAST_COMMIT_MESSAGE" value="２つ目のケースを仮実装し、片方のテストケースを落ちたことを確認した。" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
