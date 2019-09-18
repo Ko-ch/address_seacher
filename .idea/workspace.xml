@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cb9972c-8831-4eb1-94cf-bb9caf5df67c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_address_seacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_address_seacher.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568809531119</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="郵便番号から岩手県八幡平市大更を取得できるテストを書いた">
+      <created>1568810650613</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568810650613</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,7 +170,8 @@
     <MESSAGE value="県名をサーバーから取得することができました。" />
     <MESSAGE value="県名をサーバーから取得することができました。&#10;郵便番号もつけたよ" />
     <MESSAGE value="テストの雛形を作ったよ" />
-    <option name="LAST_COMMIT_MESSAGE" value="テストの雛形を作ったよ" />
+    <MESSAGE value="郵便番号から岩手県八幡平市大更を取得できるテストを書いた" />
+    <option name="LAST_COMMIT_MESSAGE" value="郵便番号から岩手県八幡平市大更を取得できるテストを書いた" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
