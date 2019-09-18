@@ -8,3 +8,18 @@
 サーバーのレスポンスをPythonが受け取る
 リクエストってどう送るか==>>リクエストを送るライブラリがある
 
+{'Content-Type': 'text/plain;charset=utf-8',
+ 'X-Cloud-Trace-Context': '539988b5d13c0cb2e7ac870057f95081',
+ 'Date': 'Wed, 18 Sep 2019 10:19:56 GMT',
+ 'Server': 'Google Frontend', 
+ 'Content-Length': '290'}
+
+そもそもレスポンスクラスがある。
+このなかに、requestsモジュールの.getとするとレスポンスというインスタンスが返ってきます。
+小文字のresponseの変数の中身はレスポンスクラスのインスタンスです。
+.textというのは、なに？なんのメソッド？
+メソッドというよりは、インスタンス変数である。
+これは構造でいうと、ユーザークラスがあって、
+ユーザーボブ１５ってやると
+
+json:java script 
