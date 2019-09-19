@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cb9972c-8831-4eb1-94cf-bb9caf5df67c" name="Default Changelist" comment="リファクタリングを行い、address_searcher.pyを作成（移動）しました。全体検索からMoveを選択すればリファクタリングを自動で行ってくれます。PyCharmすごいっ！">
+    <list default="true" id="7cb9972c-8831-4eb1-94cf-bb9caf5df67c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/address_seacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/address_seacher.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,6 +10,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="address_search" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +44,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in test_address_seacher.py">
-    <configuration name="request_sample01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="address_seacher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="address_search" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -52,7 +56,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/request_sample01.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/address_seacher.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,7 +79,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for test_address_seacher.TestAddressSearcher.test_郵便番号を入力し岩手県八幡平市大更の地名を取得する" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_address_seacher.TestAddressSearcher.test_郵便番号を入力し岩手県八幡平市大更を取得する" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="address_search" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -85,7 +89,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_address_seacher.TestAddressSearcher.test_郵便番号を入力し岩手県八幡平市大更の地名を取得する&quot;" />
+      <option name="_new_target" value="&quot;test_address_seacher.TestAddressSearcher.test_郵便番号を入力し岩手県八幡平市大更を取得する&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -120,10 +124,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in test_address_seacher.py" />
+        <item itemvalue="Python tests.Unittests for test_address_seacher.TestAddressSearcher.test_郵便番号を入力し岩手県八幡平市大更を取得する" />
+        <item itemvalue="Python.address_seacher" />
         <item itemvalue="Python tests.Unittests for test_address_seacher.TestAddressSearcher" />
         <item itemvalue="Python tests.Unittests for test_address_seacher.TestAddressSearcher.test_郵便番号を入力し東京都練馬区豊玉南を取得する" />
-        <item itemvalue="Python tests.Unittests for test_address_seacher.TestAddressSearcher.test_郵便番号を入力し岩手県八幡平市大更の地名を取得する" />
-        <item itemvalue="Python.request_sample01" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568815680736</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="リファクタリング：小変更">
+      <created>1568815889010</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1568815889010</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -233,7 +244,8 @@
     <MESSAGE value="２つ目のケースを仮実装し、片方のテストケースを落ちたことを確認した。" />
     <MESSAGE value="郵便番号から住所を取得する、AddressSearcherクラスのsearchメソッドを実装した。" />
     <MESSAGE value="リファクタリングを行い、address_searcher.pyを作成（移動）しました。全体検索からMoveを選択すればリファクタリングを自動で行ってくれます。PyCharmすごいっ！" />
-    <option name="LAST_COMMIT_MESSAGE" value="リファクタリングを行い、address_searcher.pyを作成（移動）しました。全体検索からMoveを選択すればリファクタリングを自動で行ってくれます。PyCharmすごいっ！" />
+    <MESSAGE value="リファクタリング：小変更" />
+    <option name="LAST_COMMIT_MESSAGE" value="リファクタリング：小変更" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
