@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7cb9972c-8831-4eb1-94cf-bb9caf5df67c" name="Default Changelist" comment="リファクタリング：self.base_urlを作成しました">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    <list default="true" id="7cb9972c-8831-4eb1-94cf-bb9caf5df67c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/address_seacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/address_seacher.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_address_seacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_address_seacher.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +44,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_address_seacher.py">
+  <component name="RunManager" selected="Python.app">
     <configuration name="address_seacher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="address_search" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -131,10 +131,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_address_seacher.py" />
-        <item itemvalue="Python tests.Unittests for test_address_seacher.TestAddressSearcher.test_存在しない郵便番号が入力されたらエラーメッセージを表示する" />
         <item itemvalue="Python.app" />
         <item itemvalue="Python.address_seacher" />
+        <item itemvalue="Python tests.Unittests in test_address_seacher.py" />
+        <item itemvalue="Python tests.Unittests for test_address_seacher.TestAddressSearcher.test_存在しない郵便番号が入力されたらエラーメッセージを表示する" />
         <item itemvalue="Python tests.Unittests for test_address_seacher.TestAddressSearcher.test_郵便番号を入力し岩手県八幡平市大更を取得する" />
       </list>
     </recent_temporary>
@@ -234,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568900333362</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="存在しない郵便番号が入力された場合のテストを追加">
+      <created>1569032680148</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1569032680148</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +270,8 @@
     <MESSAGE value="リファクタリングを行い、address_searcher.pyを作成（移動）しました。全体検索からMoveを選択すればリファクタリングを自動で行ってくれます。PyCharmすごいっ！" />
     <MESSAGE value="リファクタリング：小変更" />
     <MESSAGE value="リファクタリング：self.base_urlを作成しました" />
-    <option name="LAST_COMMIT_MESSAGE" value="リファクタリング：self.base_urlを作成しました" />
+    <MESSAGE value="存在しない郵便番号が入力された場合のテストを追加" />
+    <option name="LAST_COMMIT_MESSAGE" value="存在しない郵便番号が入力された場合のテストを追加" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
