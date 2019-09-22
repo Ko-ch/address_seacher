@@ -5,13 +5,12 @@ class AddressSearcher:
     def __init__(self):
         self.base_url = "http://zipcloud.ibsnet.co.jp/api/search"
 
-
     def search(self, postal_code):
         url = f"{self.base_url}?zipcode={postal_code}"
 
         response_dict = requests.get(url).json()
 
-        if response_dict["results"] == None:
+        if response_dict["results"] is None:
             return "該当するデータは見つかりませんでした。検索キーワードを変えて再検索してください。"
 
         都道府県 = response_dict["results"][0]["address1"]

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7cb9972c-8831-4eb1-94cf-bb9caf5df67c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MEMO.md" beforeDir="false" afterPath="$PROJECT_DIR$/MEMO.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/address_seacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/address_seacher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_address_seacher.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_address_seacher.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569032680148</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="存在しない郵便番号が入力された場合のテストを追加">
+      <created>1569156061601</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569156061601</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
